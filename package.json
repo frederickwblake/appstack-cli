@@ -1,0 +1,17 @@
+{
+  "name": "appstack-cli",
+  "version": "1.0.0",
+  "description": "CLI to automate Firebase, RevenueCat, Superwall, and Expo app setup",
+  "bin": {
+    "appstack": "./bin/appstack.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node ./bin/appstack.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "commander": "^11.0.0",
+    "dotenv": "^16.0.3"
+  }
+}
